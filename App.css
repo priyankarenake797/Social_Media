@@ -1,0 +1,48 @@
+.app-container{
+  display: flex;
+}
+
+.content{
+  width: 100%;
+}
+
+.sidebar{
+  /* min-height: 800px; */
+  height: calc(100vh - 0px);
+  position: sticky;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+.post-card{
+  margin: 20px 50px;
+  min-width: 30rem;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+.hashtag{
+  margin: 0px 1px;
+}
+
+.als{
+  margin: 5px 1px;
+}
+
+.create-post{
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 10%;
+  
+}
+
+.logout{
+  margin-left: 790%;
+}
+
+.sar{
+  margin-left: 460%;
+  height:35px ;
+  
+}
